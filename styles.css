@@ -10,8 +10,9 @@ body {
 /* ヘッダーのスタイル */
 header {
     position: relative;
-    height: 30vh; /* ヘッダーの高さを30vhに変更してさらに狭める */
+    height: 30vh; /* ヘッダーの高さ */
     overflow: hidden;
+    margin-bottom: 60px; /* 各セクションと同じ間隔に調整 */
 }
 
 header video {
@@ -23,11 +24,11 @@ header video {
 /* メインコンテンツのスタイル */
 main {
     padding: 20px;
-    padding-top: 5px; /* ヘッダーとコンテンツの間隔をさらに狭める */
 }
 
+/* セクションのスタイル */
 section {
-    margin-bottom: 60px; /* セクション間の間隔を広げる */
+    margin-bottom: 60px; /* セクション間の間隔 */
     text-align: center;
     opacity: 0; /* 初期状態で透明 */
     transform: translateY(20px); /* 少し下にずらす */
@@ -108,6 +109,16 @@ iframe {
     width: 100%;
     height: 300px;
     border: 0;
+}
+
+/* リンクのスタイル */
+a {
+    color: #ff9900; /* オレンジ色 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* フッターのスタイル */
