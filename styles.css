@@ -1,10 +1,10 @@
 /* 全体のスタイル */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'MS Mincho', 'Hiragino Mincho ProN', 'YuMincho', serif; /* 明朝体 */
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #333; /* 濃いグレー（黒に近い） */
+    color: #fff; /* 白色 */
 }
 
 /* ヘッダーのスタイル */
@@ -15,15 +15,9 @@ header {
 }
 
 header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    z-index: -1;
+    width: 100%; /* 幅を100%に設定 */
+    height: auto; /* 高さを自動調整 */
+    display: block; /* ブロック要素として表示 */
 }
 
 /* メインコンテンツのスタイル */
@@ -64,7 +58,7 @@ iframe {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* 濃いグレー */
+    color: #fff; /* 白色 */
     font-size: 14px;
 }
